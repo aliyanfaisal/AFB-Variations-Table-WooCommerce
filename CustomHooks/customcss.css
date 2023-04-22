@@ -1,0 +1,123 @@
+/*
+ Theme Name:   Hello Elementor Child
+ Description:  Hello Elementor Child Theme
+ Author:       R.K.
+ Template:     hello-elementor
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  helloelementorchild
+*/
+/* html a { color: #0644CE; }
+html a:hover { color: #00184C; }
+.elementor-location-header .non-login { display:block; }
+body.logged-in .elementor-location-header .non-login, .elementor-location-header .login { display:none; }
+body.logged-in .elementor-location-header .login { display:block; } */
+/*
+=================================
+ELEMENTOR
+=================================
+*/
+/* CALL ACTION 2 */
+.elemetor-call-action-2-wrap { padding: 15px 10px; }
+.elemetor-call-action-2-wrap .in-wrap { background-repeat: no-repeat; background-size: cover; background-position: left center; background-image: url('images/box-white-bg.jpg'); }
+.elemetor-call-action-2-wrap .row { min-height: 110px; }
+.elemetor-call-action-2-wrap .title-elm { margin: 0 0 10px; }
+.elemetor-call-action-2-wrap .subtitle-elm { margin: 0; }
+/* SMALL BANNER */
+.elemetor-small-banner-wrap {  padding: 0 10px; }
+.elemetor-small-banner-wrap .image-wrap { position: relative; height: 100%; }
+.elemetor-small-banner-wrap .image-wrap img { position: absolute; left: 0; max-width: 100%; height: 110%; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); }
+.elemetor-small-banner-wrap .image-wrap.right-img img { right: 0; left: auto; }
+.elemetor-small-banner-wrap .title-button-wrap { text-align: center; padding: 30px 5px; }
+.elemetor-small-banner-wrap .title-button-wrap .title-elm { margin: 0 0 15px; }
+/* WOOCOMMERCE */
+
+.elemetor-woo-price-table-single-product-wrap table {
+  border-collapse: collapse;
+}
+
+/* tr {
+  border: solid #ddd; !important; border-width: 1px 0px; !important;
+} */
+
+body .elementor-products-grid ul.products.elementor-grid li.product { background-color: #FFF; text-align: center; }
+body .elementor-widget-woocommerce-products.elementor-wc-products ul.products li.product .woocommerce-loop-product__title, .elementor-widget-woocommerce-products.elementor-wc-products ul.products li.product .woocommerce-loop-category__title { color: #000; font-size: 25px; min-height: 85px; }
+body .elementor-widget-woocommerce-products.elementor-wc-products ul.products li.product .price { color: #0644CE; font-weight: 700; font-size: 20px;  }
+body .elementor-widget-woocommerce-products.elementor-wc-products ul.products li.product .button { display: none; }
+/**/
+.woo-left-side-categories .woocommerce ul.products li.product a { display: flex; align-items: center; padding: 5px; }
+.woo-left-side-categories .woocommerce ul.products li.product a img { max-width: 40px; margin-right: 20px; margin-bottom: 0; }
+.woo-left-side-categories .woocommerce ul.products li.product .count { display: none; }
+.woo-left-side-categories .woocommerce ul.products li.product .woocommerce-loop-category__title { color: #000; }
+.woo-left-side-categories .woocommerce ul.products li.product a:hover .woocommerce-loop-category__title { color: #0644CE; }
+/* WOO PRICE SINGLE PRODUCT */
+.elemetor-woo-price-single-product-wrap .price-wrap { font-size: 40px; color: #FFF; font-family: "Manifold", sans-serif; }
+.elemetor-woo-price-single-product-wrap .price-wrap strong { font-weight: 900; }
+/* WOO TOP BENEFITS */
+.elemetor-woo-top-benefits-single-product-wrap { padding: 50px 0 35px; font-family: "Manifold", sans-serif; }
+.elemetor-woo-top-benefits-single-product-wrap .top-benefits-wrapper h3 { font-size: 40px; font-weight: 900; color: #093FB6; margin: 0 0 30px; }
+.elemetor-woo-top-benefits-single-product-wrap .top-benefits-wrapper ul { list-style: none; padding: 0; margin: 0; }
+.elemetor-woo-top-benefits-single-product-wrap .top-benefits-wrapper ul li { padding-left: 60px; position: relative; margin-bottom: 15px; color: #0C3A9D; font-size: 22px; }
+.elemetor-woo-top-benefits-single-product-wrap .top-benefits-wrapper ul li::after { content: ""; position: absolute; width: 36px; height: 28px; left: 0; top: 5px; background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url('/wp-content/uploads/2022/10/Path-Check.png'); }
+/**/
+.elemetor-woo-price-table-single-product-wrap { padding: 50px 0; font-size: 18px; width: 100%; overflow: auto; }
+.elemetor-woo-price-table-single-product-wrap th, .elemetor-woo-price-table-single-product-wrap td { padding: 10px; border-color: #FFF; border-width: 3px; background-color: #F1F1F1; vertical-align: middle; text-align: center; font-family: "Manifold", sans-serif;  }
+.elemetor-woo-price-table-single-product-wrap th { color: #0644CE; font-weight: 400; }
+.elemetor-woo-price-table-single-product-wrap .price-elm { color: #000; }
+.elemetor-woo-price-table-single-product-wrap .price-elm strong { color: #0644CE; }
+.elemetor-woo-price-table-single-product-wrap .price-label-elm { color: #FFF; font-weight: 500; background-color: #00184C; }
+.elemetor-woo-price-table-single-product-wrap .price-label-elm:nth-child(1) {  background-color: #003CBD; }
+.elemetor-woo-price-table-single-product-wrap .price-label-elm:nth-child(2) {  background-color: #00329D; }
+.elemetor-woo-price-table-single-product-wrap .price-label-elm:nth-child(3) {  background-color: #002A85; }
+.elemetor-woo-price-table-single-product-wrap .price-label-elm:nth-child(4) {  background-color: #002065; }
+.elemetor-woo-price-table-single-product-wrap .btn-add-pack-qty { font-weight: 900; padding: 10px 30px; background-color: #0644CE; color: #FFF; display: block; }
+.elemetor-woo-price-table-single-product-wrap .qty-wrapper { position: relative; }
+.elemetor-woo-price-table-single-product-wrap .qty-wrapper input { position: relative; z-index: 10; padding: 9px 45px; text-align: center; width: 125px; }
+.elemetor-woo-price-table-single-product-wrap .qty-wrapper .btn-qty { color: #0644CE; font-size: 30px; position: absolute; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); z-index: 20; display: block; }
+.elemetor-woo-price-table-single-product-wrap .qty-wrapper .btn-qty.minus { left: 25px; }
+.elemetor-woo-price-table-single-product-wrap .qty-wrapper .btn-qty.plus { right: 25px; }
+.elemetor-woo-price-table-single-product-wrap .text-wrap { text-align: center; padding-top: 50px; position: fixed; bottom: 0; right: 0; width: 300px; z-index: 100; padding: 15px; background: #FFF; border: 3px solid #1b48ab; border-radius: 15px 15px 0 0; }
+.elemetor-woo-price-table-single-product-wrap .text-wrap button { background: linear-gradient(113deg, #0644ce 0%, #0f3482 100%); color: #FFF; font-weight: 400; font-family: "Manifold", sans-serif; padding: 15px 55px; border-radius: 35px; -webkit-border-radius: 35px; }
+/*
+=================================
+WOOCOMMERCE
+=================================
+*/
+.elementor-menu-cart__product-name, .elementor-menu-cart__product-price { color: #000; }
+/* ARCHIVE */
+.elementor-widget-wc-archive-products.elementor-wc-products ul.products li.product .woocommerce-loop-product__title, .elementor-widget-wc-archive-products.elementor-wc-products ul.products li.product .woocommerce-loop-category__title { font-size: 25px; color: #000; min-height: 85px; }
+.elementor-widget-wc-archive-products.elementor-wc-products ul.products li.product .button { display: none; }
+/* RELATED PRODUCT */
+.woocommerce .related.products { margin-bottom: 30px; }
+.woocommerce .related.products .elementor-heading-title { margin-bottom: 50px; }
+.woocommerce .related.products ul.products li.product .yith-wcwl-add-button span { display: none; }
+.woocommerce .related.products ul.products li.product .woocommerce-loop-product__title { font-size: 25px; color: #000; min-height: 85px; }
+.woocommerce .related.products ul.products li.product .price { font-size: 20px; color: #0644CE; }
+.woocommerce .related.products ul.products li.product .button { display: none; }
+/* CART */
+.woocommerce .quantity .qty { width: 100px; }
+/* BUTTON */
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button { background-color: #0644CE; color: #FFF; }
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt { background-color: #0644CE; color: #FFF; }
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover { background-color: #00184C; color: #FFF; }
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover { background-color: #00184C; color: #FFF; }
+/**/
+body .elementor-menu-cart__footer-buttons .elementor-button--view-cart { background-color: #0644CE; color: #FFF; }
+body .elementor-menu-cart__footer-buttons .elementor-button--view-cart:hover { background-color: #00184C; color: #FFF; }
+/*
+=================================
+MISC
+=================================
+*/
+.btn { padding: 10px 20px; background-color: #0644CE; color: #FFF; display: inline-block; }
+.btn:hover { background-color: #FFF; color: #0644CE; }
+.btn-2 { padding: 10px 20px; text-align: center; border-radius: 30px; -webkit-border-radius: 30px; background-color: #FFF; color: #1747B2; display:block; }
+.btn-2:hover { background-color: #000; color: #FFF; }
+/**/
+body .yith-wcwl-icon { font: normal normal normal 14px/1 FontAwesome; color: #D6D6D6; }
+@media only screen and (max-width: 600px) {
+	body .elementor-products-grid ul.products.elementor-grid li.product {
+		text-align: left;
+	}
+}
